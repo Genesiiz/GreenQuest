@@ -1,0 +1,2 @@
+nav{position:absolute;bottom:0;left:0;right:0;height:49px;background:#47f7a0}nav li{position:relative;width:25%;float:left}nav li,nav li a{display:block;height:100%}nav li a{position:absolute;top:0;left:0;right:0;width:100%;text-indent:9999px;white-space:nowrap;overflow:hidden}nav li a svg{display:block;position:absolute;top:50%;left:50%;width:80%;height:80%;transform:translateX(-50%) translateY(-50%)}
+/*# sourceMappingURL=tabbar.css.map */

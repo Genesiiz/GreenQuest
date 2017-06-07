@@ -1,0 +1,15 @@
+// @import url('https://fonts.googleapis.com/css?family=Baloo|Lato:400,700');
+
+$mainType: 'Lato';
+$secondType: 'Baloo';
+
+body {
+   font-family: $mainType, sans-serif;
+   font-size: 13px;
+}
+
+h1 {
+   font-family: $secondType, sans-serif;
+   font-size: 17px;
+   line-height: 1;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M46.2935103,29.6712652 L46.2935103,50.5721004 C46.2935103,51.6719743 45.4011569,52.5635983 44.3005201,52.5635983 L2.5880453,52.5635983 C1.48734721,52.5635983 0.5950551,51.6770072 0.5950551,50.5652877 L0.5950551,15.6170292 C0.5950551,14.5133928 1.49303723,13.6187187 2.59639521,13.6187187 L23.1470613,13.6187187" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="45.6984552" height="38.9448796" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <g id="Group" transform="translate(1.000000, 4.000000)">
+                <path d="M49.9226765,17.2508575 L27.9850882,39.223405 L15.6176471,41.7233277 L18.113,29.3314994 L40.0488529,7.35721345 L49.9226765,17.2508575 L49.9226765,17.2508575 Z M52.3763824,14.7926581 L57.2647059,9.89016713 L47.3891471,-1.13686838e-13 L42.5025588,4.89727559 L52.3763824,14.7926581 L52.3763824,14.7926581 Z" id="Shape" fill="#FDFDFD"></path>
+                <use id="Rectangle" stroke="#FDFDFD" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

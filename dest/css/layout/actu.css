@@ -1,0 +1,2 @@
+.actu{top:0;left:0;height:100%;background:#000}.actu,.actu__el{position:relative;width:100%}.actu__el{display:block;height:49px;background:red}.actu__el--img{position:absolute;width:49px;border-radius:100%;background:green;overflow:hidden}.actu__el--img,.actu__el--img img{display:block;height:100%;top:0;left:0}.actu__el--img img{position:relative;width:100%}.actu__el--post{position:absolute;width:calc(100% - 59px);height:100%;top:0;right:0;background:blue}
+/*# sourceMappingURL=actu.css.map */

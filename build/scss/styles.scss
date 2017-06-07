@@ -1,0 +1,54 @@
+//ONLY @IMPORT YOUR DIFFERENT .SCSS HERE
+
+//setup
+@import 'setup/setup.scss';
+@import 'setup/font.scss';
+
+// layout
+@import 'layout/tabbar.scss';
+@import 'layout/header.scss';
+@import 'layout/actuliste.scss';
+@import 'layout/potagerliste.scss';
+@import 'layout/docliste.scss';
+@import 'layout/profil.scss';
+@import 'layout/personnesliste.scss';
+@import 'layout/plante.scss';
+@import 'layout/connexion.scss';
+
+//pages
+@import 'pages/mypotageradd.scss';
+
+//main
+@import 'pages/home.scss';
+@import 'pages/documentation.scss';
+@import 'pages/mypotager.scss';
+@import 'pages/myprofil.scss';
+@import 'pages/myabonne.scss';
+
+/*
+                                         /$$
+                                        | $$
+ /$$$$$$/$$$$  /$$   /$$ /$$   /$$  /$$$$$$$  /$$$$$$
+| $$_  $$_  $$| $$  | $$|  $$ /$$/ /$$__  $$ /$$__  $$
+| $$ \ $$ \ $$| $$  | $$ \  $$$$/ | $$  | $$| $$$$$$$$
+| $$ | $$ | $$| $$  | $$  >$$  $$ | $$  | $$| $$_____/
+| $$ | $$ | $$|  $$$$$$/ /$$/\  $$|  $$$$$$$|  $$$$$$$
+|__/ |__/ |__/ \______/ |__/  \__/ \_______/ \_______/
+               MUXDE@Maxime.houyoux
+
+         ░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
+         ░░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄░░░░
+         ░░░░█░░░▒▒▒▒▒▒░░░░░░░░▒▒▒░░█░░░
+         ░░░█░░░░░░▄██▀▄▄░░░░░▄▄▄░░░░█░░
+         ░▄▀▒▄▄▄▒░█▀▀▀▀▄▄█░░░██▄▄█░░░░█░
+         █░▒█▒▄░▀▄▄▄▀░░░░░░░░█░░░▒▒▒▒▒░█
+         █░▒█░█▀▄▄░░░░░█▀░░░░▀▄░░▄▀▀▀▄▒█
+         ░█░▀▄░█▄░█▀▄▄░▀░▀▀░▄▄▀░░░░█░░█░
+         ░░█░░░▀▄▀█▄▄░█▀▀▀▄▄▄▄▀▀█▀██░█░░
+         ░░░█░░░░██░░▀█▄▄▄█▄▄█▄████░█░░░
+         ░░░░█░░░░▀▀▄░█░░░█░█▀██████░█░░
+         ░░░░░▀▄░░░░░▀▀▄▄▄█▄█▄█▄█▄▀░░█░░
+         ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░▒░░░█░
+         ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░░░░█░
+         ░░░░░░░░░░░░░░▀▄▄▄▄▄▄▄▄▄▄▄▄▄█░░
+*/

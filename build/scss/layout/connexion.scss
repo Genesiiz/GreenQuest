@@ -1,0 +1,80 @@
+#connexion {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba($white, 0);
+   z-index: -9;
+
+   .header-connexion {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding-top: 31px;
+      padding-bottom: 72px;
+      background-image: linear-gradient(-4deg, $second 0%, $main 82%);
+      transition: height .4s ease-out;
+   }
+}
+#connexion.up {
+   background: rgba($white, 1);
+   z-index: 9999;
+}
+.bg-wrapper_connexion {
+   text-align: center;
+   font-size: 15px;
+   position: relative;
+   width: calc(100% - 6px);
+   height: calc(100% - 171px);
+   padding: 0 3px;
+   padding-top: 20px;
+   z-index: 5;
+
+   img {
+      display: block;
+      margin: 0 auto;
+      width: 72px;
+      height: 72px;
+      border-radius: 100%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+   }
+}
+#connexion-btn {
+   display: block;
+   border-radius: 6px;
+   background: #3c5a95;
+   color: $white;
+   max-width: 80px;
+   text-align: center;
+   padding: 6px 12px;
+   font-weight: 700;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+.subline-connexion {
+   display: block;
+   position: absolute;
+   bottom: 30px;
+   left: 0;
+   right: 0;
+   a {
+      font-weight: 700;
+   }
+}
+.connexion-shadow {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background: rgba($black, 0);
+   z-index: -1;
+   transition: all .28s ease-in-out;
+}
+.connexion-shadow.co {
+   background: rgba($black, .12);
+   z-index: 99999;
+}

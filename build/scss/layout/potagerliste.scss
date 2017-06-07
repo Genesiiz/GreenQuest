@@ -1,0 +1,123 @@
+.potager {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   &__el {
+      position: relative;
+      display: block;
+      width: calc(100% - 14px);
+      height: 55px;
+      padding: 0 7px;
+      margin-bottom: 20px;
+      background: $white;
+      overflow: hidden;
+      z-index: 3;
+
+      &--img {
+         display: block;
+         position: relative;
+         width: 49px;
+         height: 49px;
+         top: 3px;
+         float: left;
+         border-radius: 100%;
+         overflow: hidden;
+         background: $grey;
+
+         img {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            left: 0;
+         }
+      }
+
+      &--plante {
+         position: relative;
+         width: calc(100% - 59px);
+         height: 100%;
+         float: right;
+
+         p {
+            position: relative;
+            display: block;
+            width: 100%;
+            max-height: 100%;
+            margin-bottom: 3px;
+            font-size: 13px;
+            letter-spacing: 0.42px;
+            overflow: hidden;
+            top: 50%;
+            transform: translateY(-50%);
+
+            a {
+               font-weight: 700;
+               color: $black;
+               margin-bottom: 3px;
+            }
+            small {
+               font-size: 11px;
+               color: $grey;
+            }
+         }
+      }
+      &--plante.modif {
+         width: calc(100% - 91px);
+      }
+
+      .selector {
+         display: block;
+         position: absolute;
+         width: 17px;
+         height: 17px;
+         top: 50%;
+         left: -100px;
+         margin-right: 15px;
+         border-radius: 100%;
+         border: solid 1px $grey;
+         text-indent: 999px;
+         white-space: nowrap;
+         overflow: hidden;
+         float: left;
+         transform: translateY(-50%);
+      }
+      .selector.modif {
+         position: relative;
+         left: 0;
+      }
+      .selector.checked {
+         background-image: linear-gradient(-182deg, $main 0%, $second 100%);
+         border: none;
+         padding: 1px;
+      }
+   }
+   .swipe {
+      position: absolute;
+      width: calc(100% - 14px);
+      height: 100%;
+      top: 0;
+      left: 7px;
+      z-index: 3;
+      background: $white;
+   }
+   .swipe.swiped {
+      transform: translate3d(-123px, 0, 0);
+   }
+}
+.suppress {
+   position: absolute;
+   width: 123px;
+   height: 100%;
+   top: 0;
+   right: 7px;
+   font-size: 15px;
+   font-weight: 700;
+   color: $white;
+   line-height: 49px;
+   text-align: center;
+   background: $attention;
+   z-index: -2;
+}
